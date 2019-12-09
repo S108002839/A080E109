@@ -17,6 +17,7 @@
 資料庫
 優點:缺少重複儲存，檔案保持一致，資料獨立性，存取效率提高，較保障隱私
 缺點:存取速度慢，資料須正規化
+
 II.資料庫理論:
 資料模型（data model）: 
    Network data model[1969,Charles Bachman]
@@ -30,8 +31,8 @@ II.資料庫理論:
 內部層（Internal Level）：實際儲存資料的結構。
 外部層（External Level）或稱視界層（View Level）：使用者或是應用程式所看到的部分。
 概念層（Conceptual Level）：內部層與外部層之間的橋樑（資料庫管理師（DBA）看的整體部分）。
-III.資料庫管理系統
 
+III.資料庫管理系統
 資料的運算 CRUD== Create(建立), Read(讀取), Update(更新), Delete(刪除)
 執行資料運算的語法: SQL(Structured Query Language)  
 DDL|DML|DCL
